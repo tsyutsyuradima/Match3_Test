@@ -1,0 +1,46 @@
+Initialize engine version: 5.6.4p1 (e67c4b7007d5)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740M (ID=0xfdf)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   23.21.13.8831
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DemiLib.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DemiLib.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween43.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween46.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween50.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTweenPro.dll (this message is harmless)
+Loading C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\DOTweenPro.dll into Unity Child Domain
+- Completed reload, in  0.080 seconds
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dmytro\Documents\Projects\Match3_TsyutsyuraGit\Build\Match3_Test_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 4.030037 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 18a8 -> priority: 1 
+  Thread -> id: 305c -> priority: 1 
