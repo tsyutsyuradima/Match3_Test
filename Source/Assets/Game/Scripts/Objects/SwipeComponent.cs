@@ -14,9 +14,9 @@ namespace Game
         public event PointerHandler OnDownSwipeEvent;
         public event PointerHandler OnClickEvent;
 
-        private Vector3 FirstPos;
-        private Vector3 LastPos;
-        private float DragDistance;  //minimum distance for a SWIPE
+        Vector3 FirstPos;
+        Vector3 LastPos;
+        float DragDistance;  //minimum distance for a SWIPE
 
         void Start()
         {
@@ -41,20 +41,30 @@ namespace Game
                 if (Mathf.Abs(LastPos.x - FirstPos.x) > Mathf.Abs(LastPos.y - FirstPos.y))
                 {
                     if ((LastPos.x > FirstPos.x) && OnRightSwipeEvent != null)
+                    {
                         OnRightSwipeEvent(this);
+                    }
                     else if ((LastPos.x < FirstPos.x) && OnLeftSwipeEvent != null)
+                    {
                         OnLeftSwipeEvent(this);
+                    }
                 }
                 else
                 {
                     if (LastPos.y > FirstPos.y && OnUpSwipeEvent != null)
+                    {
                         OnUpSwipeEvent(this);
+                    }
                     else if (LastPos.y < FirstPos.y && OnDownSwipeEvent != null)
+                    {
                         OnDownSwipeEvent(this);
+                    }
                 }
             }
             else if (OnClickEvent != null)
+            {
                 OnClickEvent(this);
+            }
         }
     }
 }

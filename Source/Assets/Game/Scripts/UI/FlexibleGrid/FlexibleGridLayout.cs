@@ -17,7 +17,6 @@ namespace Game
             UpdateCellSize();
         }
 
-
         protected override void OnRectTransformDimensionsChange()
         {
             UpdateCellSize();
@@ -35,7 +34,7 @@ namespace Game
             base.SetLayoutVertical();
         }
 
-        private void UpdateCellSize()
+        void UpdateCellSize()
         {
             float width = rectTransform.rect.width;
             float height = rectTransform.rect.height;

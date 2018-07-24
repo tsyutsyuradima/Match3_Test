@@ -12,17 +12,16 @@ namespace Game
         public Button BtnExit;
         public Text Score;
 
-        private void Start()
+        void Start()
         {
             BtnExit.onClick.AddListener(OnBtnExitClick);
             BtnRestart.onClick.AddListener(OnBtnRestartClick);
         }
 
-        private void OnEnable()
+        void OnEnable()
         {
             Score.text = GlobalGameSettings.Instance.Score.ToString();
         }
-
         void OnBtnExitClick()
         {
             SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);

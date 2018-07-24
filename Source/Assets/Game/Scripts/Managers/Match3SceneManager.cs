@@ -84,7 +84,7 @@ namespace Game
         {
             match3Manager.AddNewPieces();
         }
-        private void OnCreateNewEvent(List<MatchBase> list)
+        void OnCreateNewEvent(List<MatchBase> list)
         {
             foreach (MatchBase item in list)
             {
@@ -99,17 +99,17 @@ namespace Game
             match3Manager.ReadyToCheck();
         }
 
-        private void OnUpdateScoreEvent(int score)
+        void OnUpdateScoreEvent(int score)
         {
             GlobalGameSettings.Instance.Score += score;
             ScoreController.Score.text = GlobalGameSettings.Instance.Score.ToString();
         }
-        private void OnContinueGamePlayEvent()
+        void OnContinueGamePlayEvent()
         {
             ObjectsManager.isSwiping = false;
             Sync();
         }
-        private void OnGameOverEvent()
+        void OnGameOverEvent()
         {
             audioSource.Stop();
             audioSource.clip = gameOver;

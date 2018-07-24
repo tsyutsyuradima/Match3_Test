@@ -57,14 +57,14 @@ namespace Game
             }
         }
 
-        private void OnHideElement(SwipeComponent obj)
+        void OnHideElement(SwipeComponent obj)
         {
             reservedObjectsPool.Add((MatchElement)obj);
         }
 
 
 
-        private void OnClick(SwipeComponent obj)
+        void OnClick(SwipeComponent obj)
         {
             if (!isSwiping)
             {
@@ -97,7 +97,7 @@ namespace Game
             }
         }
 
-        private void OnRightSwipe(SwipeComponent obj)
+        void OnRightSwipe(SwipeComponent obj)
         {
             if (!isSwiping)
             {
@@ -112,7 +112,7 @@ namespace Game
             }
         }
 
-        private void OnLeftSwipe(SwipeComponent obj)
+        void OnLeftSwipe(SwipeComponent obj)
         {
             if (!isSwiping)
             {
@@ -127,7 +127,7 @@ namespace Game
             }
         }
 
-        private void OnDownSwipe(SwipeComponent obj)
+        void OnDownSwipe(SwipeComponent obj)
         {
             if (!isSwiping)
             {
@@ -142,7 +142,7 @@ namespace Game
             }
         }
 
-        private void OnUpSwipe(SwipeComponent obj)
+        void OnUpSwipe(SwipeComponent obj)
         {
             if (!isSwiping)
             {
